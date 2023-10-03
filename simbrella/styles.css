@@ -1,0 +1,75 @@
+.container {
+  font-family: 'Kanit', sans-serif; 
+}
+
+h2{
+  font-weight: bold;
+  font-size: 36px;
+  color: rgb(4, 4, 194);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 45vw;
+  margin-left: 14vw;
+}
+
+button{
+  background-color: white;
+  height: 56px;
+  width: max-content;
+  border: 3px rgb(196, 194, 194) solid;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  padding: 0px 24px 0px 24px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+span{
+  color: rgba(255, 166, 0, 0.83);
+  padding-left: 60px;
+}
+
+button:hover{
+  border-color: rgba(255, 166, 0, 0.83);
+}
+
+.articles {
+  text-align: center; 
+}
+
+.article{
+  height: 450px;
+  width: 340px;
+  border: 1px rgb(217, 212, 212) solid;
+  border-radius: 3px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle; 
+  margin: 12px;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.article-name {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.article-content {
+  margin: 0;
+  padding: 7px 20px;
+  font-weight: 300;
+  color: rgb(102, 99, 99);
+}
+
+.article:hover{
+  transform: scale(1.02);
+}
+
